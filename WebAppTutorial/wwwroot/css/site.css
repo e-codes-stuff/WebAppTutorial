@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.animated-color:hover {
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: blue;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
